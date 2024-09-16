@@ -1,6 +1,7 @@
 .round-container {
   display: flex;
   flex-direction: column;
+  margin-top: 3.3rem;
 }
 
 .round-content {

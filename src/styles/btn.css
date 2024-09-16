@@ -12,3 +12,8 @@
   background-color: var(--green);
   color: var(--white);
 }
+
+.btn-arrow:hover {
+  filter: brightness(1.15);
+  transition: all 0.2s ease-in-out;
+}
