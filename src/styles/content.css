@@ -44,3 +44,10 @@ main > h2 {
   font-size: 0.75rem;
   line-height: 0.875rem;
 }
+
+@media screen and (max-width: 720px) {
+  main > h2 {
+    margin-top: 6.375rem;
+    margin-bottom: 5.125rem;
+  }
+}
