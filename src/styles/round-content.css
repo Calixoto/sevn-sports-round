@@ -1,0 +1,41 @@
+.round-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.round-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--gray);
+}
+
+.round-content:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.team {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.team > span {
+  font-size: 0.75rem;
+  line-height: 0.875rem;
+  font-weight: 700;
+}
+
+.score {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.score > span {
+  font-size: 0.9375rem;
+  line-height: 1.125rem;
+  font-weight: 700;
+}
