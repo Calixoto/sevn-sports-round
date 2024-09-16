@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <title>sevn round sports</title>
+    <title>SEVN Round Sports</title>
   </head>
   <body>
     <header>
@@ -16,49 +16,21 @@
       <h2>Confira as rodadas do nosso campeonato fictício!</h2>
       <section class="content">
         <div class="title-content">
-          <button class="btn-arrow">
+          <button class="btn-arrow" id="prev-round">
             <img src="/arrow.svg" alt="arrow-left">
           </button>
+
           <div>
             <p>Rodadas de Jogos</p>
-            <strong>RODADA 1</strong>
+            <strong class="round-count">RODADA <span id="round-number">1</span></strong>
           </div>
-          <button class="btn-arrow">
+
+          <button class="btn-arrow" id="next-round">
             <img src="/arrow.svg" alt="arrow-right" style="transform: rotate(180deg);">
           </button>
         </div>
 
-        <div class="round-container">
-          <div class="round-content">
-            <div class="team">
-              <img src="/team_shield_a.svg" alt="aa">
-            <span>Time A</span>
-            </div>
-            <div class="score">
-              <span>3</span>
-              <img src="/x.svg" alt="x">
-              <span>0</span>
-            </div>
-            <div class="team">
-              <img src="/team_shield_a.svg" alt="aa">
-            <span>Time A</span>
-            </div>
-          </div>
-          <div class="round-content">
-            <div class="team">
-              <img src="/team_shield_a.svg" alt="aa">
-            <span>Time A</span>
-            </div>
-            <div class="score">
-              <span>3</span>
-              <img src="/x.svg" alt="x">
-              <span>0</span>
-            </div>
-            <div class="team">
-              <img src="/team_shield_a.svg" alt="aa">
-            <span>Time A</span>
-            </div>
-          </div>
+        <div class="round-container" id="games-list">
         </div>
       </section>
     </main>
